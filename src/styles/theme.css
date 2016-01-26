@@ -6,10 +6,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-.error {
-  background-color: #fee;
-  color: #a55;
-  border: 1px solid #ecc;
-  padding: 15px;
-  border-radius: 4px;
+.box {
+  margin-bottom: 10px;
 }

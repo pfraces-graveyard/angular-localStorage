@@ -1,8 +1,7 @@
 <h2>export</h2>
 
-<p ng-if="!$storage.filename" class="error">
+<p ng-if="!$storage.filename" class="box error">
   There is no file stored in your localStorage
 </p>
 
 <button ng-if="$storage.filename" ng-click="export()" class="btn primary">Export</button>
-<button ng-if="$storage.filename" ng-click="remove()" class="btn danger">Remove</button>

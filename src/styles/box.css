@@ -1,0 +1,15 @@
+.box {
+  border: 1px solid #ccc;
+  padding: 15px;
+
+  /* default styles */
+  color: #333;
+  background-color: #eee;
+  border-color: #ccc;
+}
+
+.box.error {
+  color: #a55;
+  background-color: #fee;
+  border-color: #ecc;
+}

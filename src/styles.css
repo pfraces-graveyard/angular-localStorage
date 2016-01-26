@@ -1,3 +1,6 @@
 @import "reset.css/src/reset.css";
-@import "components/file/file-read.css";
+
+@import "components/import/import.css";
+@import "components/export/export.css";
+
 @import "styles/theme.css";

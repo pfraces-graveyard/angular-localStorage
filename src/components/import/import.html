@@ -1,2 +1,9 @@
 <h2>import</h2>
+
+<div ng-if="$storage.filename" class="box">
+  <em>Previously imported file:</em>
+  <strong ng-bind="$storage.filename"></strong>
+  <button ng-click="remove()" class="btn danger">Remove</button>
+</div>
+
 <div file-read="import"></div>

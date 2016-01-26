@@ -7,11 +7,6 @@ module.exports = function ($localStorage, fileWrite) {
     scope.export = function () {
       fileWrite($localStorage.filename, $localStorage.content);
     };
-
-    scope.remove = function () {
-      delete $localStorage.filename;
-      delete $localStorage.content;
-    };
   };
 
   return {
