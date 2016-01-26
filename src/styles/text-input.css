@@ -1,0 +1,8 @@
+.text-input {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #ccc;
+}

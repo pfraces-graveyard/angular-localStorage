@@ -1,0 +1,33 @@
+{
+  "name": "localstorage",
+  "dependencies": {
+    "angular": "1.*",
+    "angular-ui-router": "0.2.*",
+    "lodash": "*",
+    "reset.css": "pfraces/reset.css",
+    "ngstorage": "^0.3.10"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-eslint": "*",
+    "gulp-mocha": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-postcss": "*",
+    "postcss-import": "*",
+    "postcss-nested": "*",
+    "postcss-extend": "*",
+    "webpack-stream": "*",
+    "es6-promise": "*",
+    "expect.js": "*",
+    "del": "*",
+    "freddie": "*"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "build": "gulp build",
+    "serve": "freddie",
+    "dev": "npm run build && npm run serve"
+  }
+}

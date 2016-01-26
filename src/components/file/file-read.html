@@ -1,0 +1,8 @@
+<input ng-model="file.name" class="text-input" placeholder="Select file" readonly />
+
+<div class="file-read-select btn info">
+  <span>Select</span>
+  <input type="file" file-on-change="fileRead" />
+</div>
+
+<button ng-click="fileUpload()" class="btn primary">Import</button>

@@ -1,0 +1,50 @@
+/* bootstrap semantic buttons */
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  user-select: none;
+
+  /* default styles */
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn.primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn.info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn.success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn.warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn.danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
