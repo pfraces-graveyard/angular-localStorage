@@ -20,5 +20,5 @@ Launch the server
 
 You might want to open 2 browser windows to ensure data is not stored in memory
 
-  * Import file to LocalStorage: `http://localhost:3000/import`
-  * Export file from LocalStorage: `http://localhost:3000/export`
+  * Import files to LocalStorage: <http://localhost:3000/import>
+  * Export files from LocalStorage: <http://localhost:3000/export>
