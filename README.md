@@ -6,8 +6,8 @@ Import/Export files using `LocalStorage`
 Install
 -------
 
-    git clone <registry>/ngLocalStorage
-    cd ngLocalStorage
+    git clone <registry>/nglocalstorage
+    cd nglocalstorage
     npm install
     npm run build
 
