@@ -4,4 +4,11 @@
   There is no file stored in your localStorage
 </p>
 
-<button ng-if="$storage.filename" ng-click="export()" class="btn primary">Export</button>
+<div ng-if="$storage.filename">
+  <div class="box">
+    <em>File:</em>
+    <strong ng-bind="$storage.filename"></strong>
+  </div>
+
+  <button ng-click="export()" class="btn primary">Export</button>
+</div>
