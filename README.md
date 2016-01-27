@@ -32,7 +32,9 @@ Known Issues
   * Max size (<http://stackoverflow.com/a/2989317/1815446>)
       * FF, Chrome: 10MB per origin
       * IE: 10 MB per storage area
-  * Can be disabled by the user (not tested)
+  * Can be disabled by the user
+  * Cannot be shared accross domains without trickery
+    (<https://www.nczonline.net/blog/2010/09/07/learning-from-xauth-cross-domain-localstorage/>)
 
 ### Proof of concept
 
