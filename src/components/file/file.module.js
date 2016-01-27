@@ -7,6 +7,6 @@ module.exports = ng.module('file', [])
   .factory('fileReader', require('./file-reader.service'))
   .factory('fileRead', require('./file-read.service'))
   .factory('fileWrite', require('./file-write.service'))
-  .directive('fileOnChange', require('./file-on-change.directive'))
+  .directive('fileOnSelection', require('./file-on-selection.directive'))
   .directive('fileRead', require('./file-read.directive'))
   .name;
