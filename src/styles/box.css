@@ -1,11 +1,20 @@
+@import "styles/float.css";
+
 .box {
+  @extend .clearfix;
+
   border: 1px solid #ccc;
-  padding: 15px;
+  padding: 7px 12px;
 
   /* default styles */
   color: #333;
   background-color: #eee;
   border-color: #ccc;
+
+  .text {
+    padding: 7px 0;
+    display: inline-block;
+  }
 }
 
 .box.error {
