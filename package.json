@@ -27,7 +27,7 @@
     "lint": "gulp lint",
     "test": "gulp test",
     "build": "gulp build",
-    "serve": "freddie",
-    "dev": "npm run build && npm run serve"
+    "server": "freddie",
+    "live": "npm run build && npm run server"
   }
 }

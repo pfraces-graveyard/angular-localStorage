@@ -16,7 +16,7 @@ Usage
 
 Launch the server
 
-    npm run serve
+    npm run server
 
 You might want to open 2 browser windows to ensure data is not stored in memory
 
